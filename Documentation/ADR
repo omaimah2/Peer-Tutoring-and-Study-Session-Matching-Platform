@@ -1,1 +1,14 @@
+ADR-01
+Support both online and in person tutoring sessions
+Online sessions only; online and in person sessions
+Supporting both gives students more flexibility, but requires handling two session formats
 
+ADR-02
+Use in app mock notifications to inform students and tutors about new tutoring requests, request decisions ,confirmed sessions, and upcoming sessions
+In-app mock notifications; real email notifications
+In app mock notifications allow users to view important updates within the platform without requiring real email delivery. However, users will not receive actual email notifications outside the platform.
+
+ADR-03
+Confirm a session only after tutor acceptance and successful booking policy checks
+Confirm the session immediately after the student submits a request; confirm it after tutor acceptance and policy validation
+This prevents invalid bookings and scheduling conflicts, but adds steps before a session is confirmed
